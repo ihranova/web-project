@@ -1,0 +1,122 @@
+@media screen and (max-width: 1024px) {
+    body{
+        overflow: hidden;
+    }
+    .mark{
+        background-size: 80%;
+        width: 100px;
+    }
+    .square{
+        left: 28%;
+        top: 20%;
+    }
+    .square p{
+            font-size: 49px;
+    }
+    div .video {
+        width: 100% !important;
+        left:0px !important;
+    }
+}
+@media screen and (max-width: 960px) {
+    #owl-demo .item{
+    width: 178px !important;
+    }
+    #my_video_1{
+    width: 100% !important;
+    left:0px; 
+    }
+    .vjs-default-skin .vjs-progress-holder{
+         width: 450px !important;
+    }
+ }
+@media screen and (max-width: 680px) {
+    .first > div{
+        width: 230px;
+        left:10px;
+    }
+    .first .title{
+        font-size: 64px;
+        line-height: 51px;
+    }
+    .box{
+        padding: 10px;
+        
+    }
+    a.down{
+        margin: 10px auto;
+        font-size: 13px;
+    }
+    a.down:after{
+            top: 15px;
+    }
+    .bar,.grey{
+        display: none;
+    }
+    .first {
+        background-position-x: 50%; 
+    }
+    .first span, .first p{
+        font-size: 14px;
+    }
+    .up{
+        width: 207px;
+        /* right: 87px; */
+        left: 9px;
+    }
+    div.down{
+        width: 200px;
+        
+            padding: 10px;
+        /* right: 12px; */
+    }
+    div.down p{
+        font-size: 14px;
+    }
+    .square p {
+    font-size: 29px;
+    }
+    .square{
+        height: 243px !important;
+        width: 65% !important;
+    }
+    .square {
+    left: 18%;
+    top: 20%;
+    }
+    .two .down{
+         right: 12px !important;
+         left: inherit;
+    }
+    .three .down{
+        left: 12px;
+    }
+    .three .up{
+        right: 30px !important;
+    }
+    .four .down {
+        right: 10px;
+        left: auto;
+    }
+    .four .up {
+        left: 10px;
+    }
+    .owl-wrapper-outer .owl-item:first-of-type {
+    width: 100px !important;
+    }
+    .owl-theme .owl-controls {
+        left: 79%;
+    }
+    #owl-demo .item {
+    width: 200px !important;
+   }
+   .vjs-default-skin .vjs-progress-holder{
+         width: 350px !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    .vjs-default-skin .vjs-progress-holder{
+         width: 168px !important;
+    }
+}
+
